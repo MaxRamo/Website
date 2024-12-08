@@ -1,0 +1,100 @@
+Developer Portfolio Website Documentation
+=====================================
+
+Overview
+--------
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. The website features a maximalist design approach with smooth animations, interactive components, and a dark theme with purple accents.
+
+Features
+--------
+1. Responsive Design
+   - Mobile-first approach
+   - Breakpoints for all device sizes
+   - Fluid typography and spacing
+
+2. Navigation
+   - Responsive navigation menu
+   - Mobile hamburger menu
+   - Smooth page transitions
+
+3. Pages
+   a. Home
+      - Hero section with background image
+      - Services overview
+      - Call-to-action buttons
+
+   b. Portfolio
+      - Filterable project grid
+      - Project cards with hover effects
+      - Category filtering system
+
+   c. Blog
+      - Article grid layout
+      - Category filtering
+      - Reading time estimates
+
+   d. About
+      - Professional summary
+      - Skills visualization
+      - Experience timeline
+
+   e. Contact
+      - Contact form with validation
+      - Social media links
+      - Contact information
+
+Technical Stack
+--------------
+- React 18.3.1
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+- Lucide React Icons
+
+Performance Optimizations
+------------------------
+1. Image Optimization
+   - Responsive images
+   - Lazy loading
+   - Optimal formats and compression
+
+2. Code Splitting
+   - Route-based code splitting
+   - Lazy-loaded components
+
+3. Animation Performance
+   - Hardware-accelerated animations
+   - Optimized motion effects
+
+Accessibility Features
+---------------------
+- ARIA labels
+- Semantic HTML
+- Keyboard navigation
+- Color contrast compliance
+- Screen reader compatibility
+
+Browser Support
+--------------
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers
+
+Maintenance
+----------
+1. Content Updates
+   - Edit project data in src/data/projects.ts
+   - Modify blog posts in src/data/blog-posts.ts
+   - Update personal information in About page
+
+2. Styling
+   - Global styles in src/index.css
+   - Tailwind configuration in tailwind.config.js
+   - Component-specific styles within components
+
+3. Dependencies
+   - Regular updates recommended
+   - Package.json maintains version control

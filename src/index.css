@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+:root.light {
+  --background: 255 255 255;
+  --foreground: 0 0 0;
+}
+
+:root.dark {
+  --background: 0 0 0;
+  --foreground: 255 255 255;
+}
+
+body {
+  @apply bg-background text-foreground transition-colors;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-purple-900 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-purple-800;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

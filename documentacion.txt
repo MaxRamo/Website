@@ -1,0 +1,100 @@
+Documentación del Sitio Web del Desarrollador
+==========================================
+
+Descripción General
+------------------
+Un sitio web de portafolio moderno y responsivo construido con React, TypeScript y Tailwind CSS. El sitio web presenta un diseño maximalista con animaciones suaves, componentes interactivos y un tema oscuro con acentos púrpura.
+
+Características
+--------------
+1. Diseño Responsivo
+   - Enfoque mobile-first
+   - Puntos de quiebre para todos los tamaños de dispositivos
+   - Tipografía y espaciado fluidos
+
+2. Navegación
+   - Menú de navegación responsivo
+   - Menú hamburguesa para móviles
+   - Transiciones suaves entre páginas
+
+3. Páginas
+   a. Inicio
+      - Sección hero con imagen de fondo
+      - Resumen de servicios
+      - Botones de llamada a la acción
+
+   b. Portafolio
+      - Cuadrícula de proyectos filtrable
+      - Tarjetas de proyecto con efectos hover
+      - Sistema de filtrado por categorías
+
+   c. Blog
+      - Diseño de cuadrícula de artículos
+      - Filtrado por categorías
+      - Estimaciones de tiempo de lectura
+
+   d. Sobre Mí
+      - Resumen profesional
+      - Visualización de habilidades
+      - Línea de tiempo de experiencia
+
+   e. Contacto
+      - Formulario de contacto con validación
+      - Enlaces a redes sociales
+      - Información de contacto
+
+Stack Técnico
+------------
+- React 18.3.1
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+- Lucide React Icons
+
+Optimizaciones de Rendimiento
+---------------------------
+1. Optimización de Imágenes
+   - Imágenes responsivas
+   - Carga diferida
+   - Formatos y compresión óptimos
+
+2. División de Código
+   - División basada en rutas
+   - Componentes con carga diferida
+
+3. Rendimiento de Animaciones
+   - Animaciones aceleradas por hardware
+   - Efectos de movimiento optimizados
+
+Características de Accesibilidad
+------------------------------
+- Etiquetas ARIA
+- HTML semántico
+- Navegación por teclado
+- Cumplimiento de contraste de color
+- Compatibilidad con lectores de pantalla
+
+Soporte de Navegadores
+---------------------
+- Chrome (última versión)
+- Firefox (última versión)
+- Safari (última versión)
+- Edge (última versión)
+- Navegadores móviles
+
+Mantenimiento
+------------
+1. Actualizaciones de Contenido
+   - Editar datos de proyectos en src/data/projects.ts
+   - Modificar entradas del blog en src/data/blog-posts.ts
+   - Actualizar información personal en la página Sobre Mí
+
+2. Estilos
+   - Estilos globales en src/index.css
+   - Configuración de Tailwind en tailwind.config.js
+   - Estilos específicos de componentes dentro de los componentes
+
+3. Dependencias
+   - Actualizaciones regulares recomendadas
+   - Package.json mantiene el control de versiones
